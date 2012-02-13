@@ -2144,17 +2144,17 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <instance part="R2" gate="G$1" x="101.6" y="144.78" rot="R270"/>
 <instance part="TX" gate="G$1" x="93.98" y="154.94" rot="R270"/>
 <instance part="RX" gate="G$1" x="101.6" y="154.94" rot="R270"/>
-<instance part="U$3" gate="G$1" x="116.84" y="114.3" smashed="yes" rot="R270">
-<attribute name="VALUE" x="119.888" y="113.792" size="1.27" layer="96"/>
+<instance part="U$3" gate="G$1" x="119.38" y="111.76" smashed="yes" rot="R270">
+<attribute name="VALUE" x="122.428" y="111.252" size="1.27" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="27.94" y="154.94"/>
-<instance part="U$8" gate="G$1" x="116.84" y="119.38" smashed="yes" rot="R270">
-<attribute name="VALUE" x="119.888" y="118.872" size="1.27" layer="96"/>
+<instance part="U$8" gate="G$1" x="121.92" y="114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="124.968" y="113.792" size="1.27" layer="96"/>
 </instance>
 <instance part="U$9" gate="G$1" x="30.48" y="160.02"/>
 <instance part="U$11" gate="G$1" x="127" y="119.38"/>
 <instance part="U$12" gate="G$1" x="127" y="104.14"/>
-<instance part="C2" gate="G$1" x="127" y="111.76" rot="R270"/>
+<instance part="C2" gate="G$1" x="127" y="109.22" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -2196,7 +2196,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="114.3" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="104.14" x2="127" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="127" y1="106.68" x2="127" y2="109.22" width="0.1524" layer="91"/>
 <junction x="127" y="106.68"/>
 <pinref part="U$7" gate="G$1" pin="10"/>
 </segment>
@@ -2225,7 +2224,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <pinref part="U1" gate="1" pin="USBDP"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="TXO" class="0">
 <segment>
 <wire x1="81.28" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
 <label x="88.9" y="154.94" size="1.778" layer="95" rot="MR0"/>
@@ -2238,7 +2237,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <junction x="114.3" y="109.22"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="RXI" class="0">
 <segment>
 <wire x1="88.9" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
 <label x="88.9" y="152.4" size="1.778" layer="95" rot="MR0"/>
@@ -2254,13 +2253,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="3.3V"/>
-<wire x1="127" y1="116.84" x2="127" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="127" y1="114.3" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="127" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
-<junction x="127" y="116.84"/>
-<pinref part="U$7" gate="G$1" pin="5"/>
-<junction x="114.3" y="116.84"/>
+<wire x1="127" y1="111.76" x2="127" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="4"/>
+<wire x1="114.3" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
+<junction x="127" y="119.38"/>
 </segment>
 <segment>
 <pinref part="U1" gate="1" pin="3V3OUT"/>
@@ -2302,10 +2299,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <pinref part="RX" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="7"/>
 <pinref part="U$3" gate="G$1" pin="5.0V"/>
-<pinref part="U$7" gate="G$1" pin="6"/>
-<junction x="114.3" y="114.3"/>
+<wire x1="114.3" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CTS" class="0">
@@ -2364,10 +2360,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="30.48" y1="154.94" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="U$7" gate="G$1" pin="6"/>
 <pinref part="U$8" gate="G$1" pin="VIN"/>
-<pinref part="U$7" gate="G$1" pin="4"/>
-<junction x="114.3" y="119.38"/>
-<wire x1="114.3" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
