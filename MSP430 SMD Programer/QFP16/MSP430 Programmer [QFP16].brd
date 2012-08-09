@@ -129,7 +129,7 @@
 <text x="3.556" y="12.446" size="0.6096" layer="51" ratio="12" rot="R315" align="center-left">SBWTDIO</text>
 <text x="2.54" y="11.43" size="0.6096" layer="51" ratio="12" rot="R315" align="center-left">SBWTCK</text>
 <text x="1.778" y="10.541" size="0.6096" layer="51" ratio="12" rot="R315" align="center-left">GND</text>
-<text x="5.25" y="2.5" size="0.6096" layer="51" ratio="12" align="center-left">MSP430 QFN16 PGMR</text>
+<text x="5.25" y="2.5" size="0.6096" layer="51" ratio="12" align="center-left">MSP430 QFP16 PGMR</text>
 <text x="5.25" y="1.5" size="0.6096" layer="51" ratio="12" align="center-left">Cruz Monrreal II</text>
 </plain>
 <libraries>
