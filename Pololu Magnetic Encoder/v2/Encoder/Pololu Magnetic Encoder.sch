@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -316,6 +316,25 @@ Source: www.austriamicrosystems.com .. AS5040DataSheetRev12.pdf</description>
 <text x="-2.667" y="1.778" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.667" y="-2.159" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="1812">
+<description>http://www.panasonic.com/industrial/components/pdf/AOA0000CE1.pdf</description>
+<smd name="1" x="-2.55" y="0" dx="1.4" dy="3.5" layer="1" stop="no"/>
+<smd name="2" x="2.55" y="0" dx="1.4" dy="3.5" layer="1" stop="no"/>
+<wire x1="-1.85" y1="1.9" x2="-3.4" y2="1.9" width="0.1" layer="21"/>
+<wire x1="-3.4" y1="1.9" x2="-3.4" y2="-1.9" width="0.1" layer="21"/>
+<wire x1="-3.4" y1="-1.9" x2="-1.85" y2="-1.9" width="0.1" layer="21"/>
+<wire x1="1.85" y1="1.9" x2="3.4" y2="1.9" width="0.1" layer="21"/>
+<wire x1="3.4" y1="1.9" x2="3.4" y2="-1.9" width="0.1" layer="21"/>
+<wire x1="3.4" y1="-1.9" x2="1.85" y2="-1.9" width="0.1" layer="21"/>
+<rectangle x1="-3.3" y1="-1.8" x2="-1.8" y2="1.8" layer="29"/>
+<rectangle x1="1.8" y1="-1.8" x2="3.3" y2="1.8" layer="29"/>
+<rectangle x1="-2.25" y1="-1.6" x2="-1.75" y2="1.6" layer="21"/>
+<rectangle x1="1.75" y1="-1.6" x2="2.25" y2="1.6" layer="21" rot="R180"/>
+<rectangle x1="-2.25" y1="-1.6" x2="2.25" y2="-1.5" layer="21"/>
+<rectangle x1="-2.25" y1="1.5" x2="2.25" y2="1.6" layer="21"/>
+<text x="-3.429" y="2.159" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -327,6 +346,20 @@ Source: www.austriamicrosystems.com .. AS5040DataSheetRev12.pdf</description>
 <text x="1.27" y="1.905" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.762" y1="-1.016" x2="-0.254" y2="1.016" layer="94"/>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="94"/>
+</symbol>
+<symbol name="RESISTOR">
+<pin name="1" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.635" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.2032" layer="94"/>
+<text x="-1.27" y="1.27" size="1.016" layer="95" rot="MR90">&gt;NAME</text>
+<text x="1.27" y="1.27" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -381,6 +414,76 @@ Source: www.austriamicrosystems.com .. AS5040DataSheetRev12.pdf</description>
 </technologies>
 </device>
 <device name=".1210" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name=".0201" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".1210" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".1812" package="1812">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -979,6 +1082,8 @@ Parts Updated:
 <part name="U$10" library="thinkmaketest" deviceset="A4_LAYOUT" device=""/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
 <part name="JP2" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
+<part name="R1" library=".standardparts" deviceset="RESISTOR" device=".0603" value="100k"/>
+<part name="U$1" library="microbuilder" deviceset="VIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -991,14 +1096,16 @@ Parts Updated:
 <instance part="J1" gate="G$1" x="20.32" y="147.32" rot="MR90"/>
 <instance part="U$2" gate="G$1" x="25.4" y="154.94"/>
 <instance part="U$3" gate="G$1" x="25.4" y="129.54"/>
-<instance part="U$4" gate="G$1" x="55.88" y="132.08"/>
-<instance part="J2" gate="G$1" x="53.34" y="134.62" rot="R180"/>
+<instance part="U$4" gate="G$1" x="58.42" y="132.08"/>
+<instance part="J2" gate="G$1" x="55.88" y="134.62" rot="R180"/>
 <instance part="U$7" gate="G$1" x="83.82" y="157.48"/>
 <instance part="U$8" gate="G$1" x="83.82" y="149.86"/>
 <instance part="U$9" gate="G$1" x="93.98" y="149.86"/>
 <instance part="U$10" gate="G$1" x="0" y="0"/>
 <instance part="JP1" gate="G$1" x="73.66" y="154.94" rot="R180"/>
 <instance part="JP2" gate="G$1" x="73.66" y="142.24" rot="R180"/>
+<instance part="R1" gate="G$1" x="55.88" y="139.7" rot="R270"/>
+<instance part="U$1" gate="G$1" x="55.88" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -1020,6 +1127,10 @@ Parts Updated:
 <wire x1="83.82" y1="154.94" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -1065,17 +1176,25 @@ Parts Updated:
 <wire x1="83.82" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 </segment>
-</net>
-<net name="!CS" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
-<label x="53.34" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
+</net>
+<net name="!CS" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="3"/>
 <wire x1="96.52" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <label x="101.6" y="147.32" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="!CS"/>
+<wire x1="53.34" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="134.62" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
+<junction x="53.34" y="134.62"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<label x="53.34" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -1111,12 +1230,6 @@ Parts Updated:
 <wire x1="20.32" y1="144.78" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="147.32" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
 <junction x="20.32" y="144.78"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="!CS"/>
 </segment>
 </net>
 </nets>
