@@ -5258,6 +5258,9 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <part name="R7" library="standardparts" deviceset="RESISTOR" device=".0603" value="2.2k"/>
 <part name="U$138" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$1" library="microbuilder" deviceset="5.0V" device=""/>
+<part name="C43" library="microbuilder" deviceset="CAP_ELECTROLYTIC" device="PANASONIC_C" value="100uF"/>
+<part name="U$2" library="microbuilder" deviceset="5.0V" device=""/>
+<part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5505,6 +5508,9 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <instance part="R7" gate="G$1" x="185.42" y="12.7"/>
 <instance part="U$138" gate="G$1" x="180.34" y="15.24"/>
 <instance part="U$1" gate="G$1" x="312.42" y="96.52"/>
+<instance part="C43" gate="G$1" x="48.26" y="241.3"/>
+<instance part="U$2" gate="G$1" x="48.26" y="248.92"/>
+<instance part="U$5" gate="G$1" x="48.26" y="236.22"/>
 </instances>
 <busses>
 </busses>
@@ -5972,6 +5978,10 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <wire x1="370.84" y1="195.58" x2="370.84" y2="190.5" width="0.1524" layer="91"/>
 <junction x="370.84" y="195.58"/>
 <junction x="370.84" y="190.5"/>
+</segment>
+<segment>
+<pinref part="C43" gate="G$1" pin="-"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -6503,6 +6513,10 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <pinref part="U$1" gate="G$1" pin="5.0V"/>
 <wire x1="317.5" y1="91.44" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="91.44" x2="312.42" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C43" gate="G$1" pin="+"/>
+<pinref part="U$2" gate="G$1" pin="5.0V"/>
 </segment>
 </net>
 <net name="LS.8" class="0">
