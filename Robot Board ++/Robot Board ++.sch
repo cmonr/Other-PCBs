@@ -5161,9 +5161,9 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <instance part="R7" gate="G$1" x="185.42" y="12.7"/>
 <instance part="U$138" gate="G$1" x="180.34" y="15.24"/>
 <instance part="U$1" gate="G$1" x="312.42" y="96.52"/>
-<instance part="C43" gate="G$1" x="48.26" y="241.3"/>
-<instance part="U$2" gate="G$1" x="48.26" y="248.92"/>
-<instance part="U$5" gate="G$1" x="48.26" y="236.22"/>
+<instance part="C43" gate="G$1" x="45.72" y="238.76"/>
+<instance part="U$2" gate="G$1" x="45.72" y="246.38"/>
+<instance part="U$5" gate="G$1" x="45.72" y="233.68"/>
 <instance part="U$6" gate="G$1" x="175.26" y="152.4"/>
 <instance part="U$7" gate="G$1" x="154.94" y="152.4"/>
 <instance part="U$9" gate="G$1" x="160.02" y="162.56"/>
@@ -6703,6 +6703,11 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <wire x1="289.56" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
 <label x="289.56" y="195.58" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="3"/>
+<wire x1="167.64" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
+<label x="167.64" y="152.4" size="1.27" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="UART.TXO" class="0">
 <segment>
@@ -7225,13 +7230,6 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <segment>
 <pinref part="U$8" gate="G$1" pin="3.3V"/>
 <junction x="317.5" y="93.98"/>
-</segment>
-</net>
-<net name="UART.TXI" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="3"/>
-<wire x1="167.64" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
-<label x="167.64" y="152.4" size="1.27" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
