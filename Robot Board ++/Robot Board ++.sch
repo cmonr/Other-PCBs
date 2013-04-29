@@ -4817,7 +4817,7 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <part name="LED2" library="standardparts" deviceset="LED" device=".0603"/>
 <part name="LED3" library="standardparts" deviceset="LED" device=".0603"/>
 <part name="H23" library="headers(2mm)" deviceset="2X3" device=""/>
-<part name="U10" library="packages(ti)" deviceset="74XX125" device=".RGY"/>
+<part name="U10" library="packages(ti)" deviceset="74XX125" device=".RGY" value="74LVTH125.RGY"/>
 <part name="U$133" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$134" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$16" library="microbuilder" deviceset="GND" device=""/>
