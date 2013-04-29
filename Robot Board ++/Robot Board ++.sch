@@ -2566,12 +2566,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
-<symbol name="VDDIO">
-<text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="VDDIO" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-</symbol>
 <symbol name="VIN">
 <text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="VIN" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
@@ -2636,18 +2630,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <description>VBAT Supply Sumbol</description>
 <gates>
 <gate name="G$1" symbol="VBAT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VDDIO">
-<gates>
-<gate name="G$1" symbol="VDDIO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4855,7 +4837,6 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <part name="U$136" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$56" library="microbuilder" deviceset="GND" device=""/>
 <part name="R5" library="standardparts" deviceset="RESISTOR" device=".0603" value="100k"/>
-<part name="U$58" library="microbuilder" deviceset="VDDIO" device=""/>
 <part name="U$111" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$137" library="microbuilder" deviceset="GND" device=""/>
 <part name="C40" library="standardparts" deviceset="CAPACITOR" device=".0603" value=".1uF"/>
@@ -4884,6 +4865,7 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <part name="U$36" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$37" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$38" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$39" library="microbuilder" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5092,7 +5074,6 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <instance part="U$136" gate="G$1" x="274.32" y="12.7"/>
 <instance part="U$56" gate="G$1" x="347.98" y="88.9"/>
 <instance part="R5" gate="G$1" x="157.48" y="10.16" rot="R180"/>
-<instance part="U$58" gate="G$1" x="165.1" y="12.7"/>
 <instance part="U$111" gate="G$1" x="340.36" y="198.12"/>
 <instance part="U$137" gate="G$1" x="340.36" y="187.96"/>
 <instance part="C40" gate="G$1" x="340.36" y="193.04" rot="MR270"/>
@@ -5121,6 +5102,7 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <instance part="U$36" gate="G$1" x="22.86" y="96.52"/>
 <instance part="U$37" gate="G$1" x="63.5" y="96.52"/>
 <instance part="U$38" gate="G$1" x="63.5" y="114.3"/>
+<instance part="U$39" gate="G$1" x="165.1" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -5756,6 +5738,11 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <wire x1="63.5" y1="111.76" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U$38" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="3.3V"/>
+</segment>
 </net>
 <net name="SVRO0" class="0">
 <segment>
@@ -6291,13 +6278,6 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <wire x1="256.54" y1="55.88" x2="259.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="55.88" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
 <junction x="259.08" y="58.42"/>
-</segment>
-</net>
-<net name="VDDIO" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="U$58" gate="G$1" pin="VDDIO"/>
-<wire x1="160.02" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
