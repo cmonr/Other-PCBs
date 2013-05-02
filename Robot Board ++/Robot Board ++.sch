@@ -4871,10 +4871,7 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
   - SPI Encoder
   - Line Sensor Adapter
   - Adapter for Parallel Motors
-    - Schottky Diodes
-- Audio (?)
-  - DAC122S085
-  - LM4666</text>
+    - Schottky Diodes</text>
 </plain>
 <instances>
 <instance part="U$8" gate="G$1" x="332.74" y="78.74"/>

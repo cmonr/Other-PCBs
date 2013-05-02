@@ -23,7 +23,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -304,8 +304,8 @@ RST</text>
 <text x="59.69" y="14.224" size="0.6096" layer="52" font="vector" ratio="12" rot="MR270" align="center-left">CS</text>
 <text x="64.77" y="71.12" size="1.778" layer="52" font="vector" ratio="15" rot="MR0" align="center-left">Robotics
 Booster Pack</text>
-<text x="64.77" y="67.31" size="1.016" layer="52" font="vector" ratio="12" rot="MR0" align="center-left">Cruz Monrreal II</text>
-<text x="64.77" y="66.04" size="1.016" layer="52" font="vector" ratio="12" rot="MR0" align="center-left">AnomalousMaker.com</text>
+<text x="64.77" y="66.675" size="1.016" layer="52" font="vector" ratio="12" rot="MR0" align="center-left">Cruz Monrreal II</text>
+<text x="64.77" y="65.405" size="1.016" layer="52" font="vector" ratio="12" rot="MR0" align="center-left">AnomalousMaker.com</text>
 </plain>
 <libraries>
 <library name="StellarisLaunchPad_Fred">
