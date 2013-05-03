@@ -120,9 +120,6 @@
 <wire x1="15.24" y1="11.684" x2="2.54" y2="11.684" width="0" layer="20"/>
 <wire x1="2.54" y1="11.684" x2="0" y2="9.144" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="9.144" x2="0" y2="1.27" width="0" layer="20"/>
-<text x="6.35" y="10.541" size="0.8128" layer="52" font="vector" ratio="12" rot="MR180" align="center">DO</text>
-<text x="8.89" y="10.541" size="0.8128" layer="52" font="vector" ratio="12" rot="MR180" align="center">CLK</text>
-<text x="11.43" y="10.541" size="0.8128" layer="52" font="vector" ratio="12" rot="MR180" align="center">!CS</text>
 <wire x1="13.335" y1="2.54" x2="9.525" y2="2.54" width="0.1524" layer="41"/>
 <wire x1="8.255" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="41"/>
 <wire x1="4.445" y1="2.54" x2="8.255" y2="2.54" width="0.1524" layer="42"/>
@@ -355,7 +352,6 @@
 <vertex x="9.63409375" y="10.314940625"/>
 <vertex x="9.614915625" y="10.334115625"/>
 <vertex x="9.5957375" y="10.35329375"/>
-<vertex x="9.5765625" y="10.372471875"/>
 <vertex x="9.544559375" y="10.350753125"/>
 <vertex x="9.51268125" y="10.328909375"/>
 <vertex x="9.480678125" y="10.30719375"/>
