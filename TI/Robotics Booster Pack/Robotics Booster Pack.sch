@@ -2041,14 +2041,14 @@ SMT header is CONN-09042.</description>
 <wire x1="13.825" y1="0" x2="13.825" y2="15.3" width="0.1" layer="21"/>
 <wire x1="13.825" y1="15.3" x2="0" y2="15.3" width="0.1" layer="21"/>
 <wire x1="0" y1="15.3" x2="0" y2="7.15" width="0.1" layer="21"/>
-<smd name="MISO/DAT0" x="8.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="NC/NC/DAT1" x="9.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="VSS" x="7.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="CLK" x="6.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="VDD" x="5.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="MOSI/CMD" x="4.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="!CS!/NC/DAT3" x="3.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
-<smd name="NC/NC/DAT2" x="2.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="MISO/DAT0" x="3.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="NC/NC/DAT1" x="2.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="VSS" x="4.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="CLK" x="5.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="VDD" x="6.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="MOSI/CMD" x="7.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="!CS!/NC/DAT3" x="8.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
+<smd name="NC/NC/DAT2" x="9.1625" y="3.125" dx="0.7" dy="0.75" layer="1"/>
 <smd name="GND" x="3.6625" y="1.925" dx="0.7" dy="0.75" layer="1"/>
 <smd name="GND@1" x="7.6625" y="1.925" dx="0.7" dy="0.75" layer="1"/>
 <smd name="SHIELD@1" x="13.4875" y="0.35" dx="0.95" dy="0.9" layer="1"/>
@@ -4792,7 +4792,7 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
 <part name="U$113" library="microbuilder" deviceset="GND" device=""/>
 <part name="C20" library="standardparts" deviceset="CAPACITOR" device=".0603" value=".1uF"/>
 <part name="C22" library="standardparts" deviceset="CAPACITOR" device=".0603" value="10nF"/>
-<part name="C32" library="standardparts" deviceset="CAPACITOR" device=".0603" value="10nF"/>
+<part name="C32" library="standardparts" deviceset="CAPACITOR" device=".0603" value="2.2uF"/>
 <part name="C33" library="standardparts" deviceset="CAPACITOR" device=".0603" value=".1uF"/>
 <part name="U$114" library="microbuilder" deviceset="GND" device=""/>
 <part name="R3" library="vishay" deviceset="RESISTOR" device=".WSK" value="1u"/>
@@ -4871,7 +4871,8 @@ Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
   - SPI Encoder
   - Line Sensor Adapter
   - Adapter for Parallel Motors
-    - Schottky Diodes</text>
+    - Schottky Diodes
+- Add filters for SDCard Power Lines</text>
 </plain>
 <instances>
 <instance part="U$8" gate="G$1" x="332.74" y="78.74"/>
