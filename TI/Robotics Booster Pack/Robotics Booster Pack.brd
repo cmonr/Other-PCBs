@@ -2032,10 +2032,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$4" library="screw_holes" package="4MM" value="HOLE.4MM" x="64.77" y="3.81"/>
 <element name="U$11" library="screw_holes" package="4MM" value="HOLE.4MM" x="3.81" y="72.39"/>
 <element name="U13" library="SparkFun-RF" package="XBEE-1_LOCK" value="XBEE-1XBEE-1_LOCK" x="55.88" y="54.61"/>
-<element name="U1" library="packages(ti)" package="RTY.16" value="" x="14.605" y="16.51"/>
-<element name="U2" library="packages(ti)" package="RTY.16" value="" x="26.67" y="16.51"/>
-<element name="U3" library="packages(ti)" package="RTY.16" value="" x="41.91" y="16.51"/>
-<element name="U4" library="packages(ti)" package="RTY.16" value="" x="53.975" y="16.51"/>
+<element name="U1" library="packages(ti)" package="RTY.16" value="DRV8800" x="14.605" y="16.51"/>
+<element name="U2" library="packages(ti)" package="RTY.16" value="DRV8800" x="26.67" y="16.51"/>
+<element name="U3" library="packages(ti)" package="RTY.16" value="DRV8800" x="41.91" y="16.51"/>
+<element name="U4" library="packages(ti)" package="RTY.16" value="DRV8800" x="53.975" y="16.51"/>
 <element name="U11" library="alps" package="SCHA4B0400" value="SCHA4B0400" x="62.865" y="73.66" rot="R180"/>
 <element name="H1" library="headers(.1in)" package="1X6" value="1X6" x="66.675" y="28.575" rot="R90"/>
 <element name="H2" library="headers(.1in)" package="1X6" value="1X6" x="64.135" y="28.575" rot="R90"/>
@@ -2057,7 +2057,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="H15" library="headers(.1in)" package="2X3" value="2X3" x="1.905" y="8.255"/>
 <element name="H14" library="headers(.1in)" package="2X3" value="2X3" x="61.595" y="13.335"/>
 <element name="H16" library="headers(.1in)" package="2X3" value="2X3" x="61.595" y="8.255"/>
-<element name="U$55" library="freescale" package="MICROFET.2X2" value="FDMA1024NZ" x="10.795" y="62.865" rot="R270"/>
+<element name="U14" library="freescale" package="MICROFET.2X2" value="FDMA1024NZ" x="10.795" y="62.865" rot="R270"/>
 <element name="U8" library="invensense" package="QFN.24.4X4" value="MPU-6050" x="34.29" y="50.165" rot="R90"/>
 <element name="H21" library="phoenixcontact" package="PTS.PLUG" value="1X2.PTS" x="34.29" y="7.62" rot="R180"/>
 <element name="U12" library="SparkFun-RF" package="RN41" value="BLUETOOTH-RN41&quot;" x="35.56" y="65.405" rot="R270"/>
@@ -2117,10 +2117,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C32" library="standardparts" package="0603" value="2.2uF" x="30.48" y="50.165" rot="R270"/>
 <element name="C33" library="standardparts" package="0603" value=".1uF" x="38.1" y="52.07" rot="R270"/>
 <element name="R3" library="vishay" package="0612" value="1u" x="35.56" y="12.7" rot="R270"/>
-<element name="U$118" library="packages(ti)" package="DGS.10" value="INA220.DGS" x="36.195" y="18.415" rot="R180"/>
-<element name="C39" library="standardparts" package="0603" value=".1uF" x="34.036" y="18.415" rot="R90"/>
+<element name="U9" library="packages(ti)" package="DGS.10" value="INA220.DGS" x="36.195" y="18.415" rot="R180"/>
+<element name="C35" library="standardparts" package="0603" value=".1uF" x="34.036" y="18.415" rot="R90"/>
 <element name="U7" library="packages(ti)" package="RGV.16" value="PCA9557.RGV" x="12.065" y="58.42" rot="R270"/>
-<element name="C42" library="standardparts" package="0603" value=".1uF" x="15.875" y="58.42" rot="R90"/>
+<element name="C38" library="standardparts" package="0603" value=".1uF" x="15.875" y="58.42" rot="R90"/>
 <element name="LED1" library="standardparts" package="0603.LED" value="" x="15.875" y="73.66" rot="R270"/>
 <element name="LED2" library="standardparts" package="0603.LED" value="" x="13.97" y="73.66" rot="R270"/>
 <element name="LED3" library="standardparts" package="0603.LED" value="" x="12.065" y="73.66" rot="R270"/>
@@ -2134,14 +2134,14 @@ Please make sure your boards conform to these design rules.</description>
 <element name="RA1" library="resistorarray" package="0603.4.C" value="1k" x="12.065" y="70.485"/>
 <element name="RA2" library="resistorarray" package="0603.4.C" value="1k" x="21.59" y="70.485" rot="R180"/>
 <element name="R4" library="standardparts" package="0603" value="1k" x="26.67" y="70.485" rot="R90"/>
-<element name="BTN2" library="omron" package="B3U-1000P(M)-B" value="B3U-1000P(M)-B" x="26.035" y="66.04" rot="R270"/>
+<element name="BTN1" library="omron" package="B3U-1000P(M)-B" value="B3U-1000P(M)-B" x="26.035" y="66.04" rot="R270"/>
 <element name="H24" library="headers(.1in)" package="1X2" value="1X2" x="64.135" y="50.165"/>
 <element name="R5" library="standardparts" package="0603" value="100k" x="45.085" y="21.59" rot="R270"/>
-<element name="C40" library="standardparts" package="0603" value=".1uF" x="15.24" y="66.04" rot="R180"/>
-<element name="C41" library="standardparts" package="0603" value="1uF" x="18.415" y="66.04"/>
+<element name="C36" library="standardparts" package="0603" value=".1uF" x="15.24" y="66.04" rot="R180"/>
+<element name="C37" library="standardparts" package="0603" value="1uF" x="18.415" y="66.04"/>
 <element name="R6" library="standardparts" package="0603" value="2.2k" x="51.435" y="44.45"/>
 <element name="R7" library="standardparts" package="0603" value="2.2k" x="51.435" y="42.545"/>
-<element name="C43" library="microbuilder" package="PANASONIC_C" value="100uF" x="64.135" y="22.225" rot="R180"/>
+<element name="C39" library="microbuilder" package="PANASONIC_C" value="100uF" x="64.135" y="22.225" rot="R180"/>
 <element name="U$6" library="headers(.1in)" package="1X4" value="1X4" x="20.32" y="52.705"/>
 <element name="U$7" library="headers(.1in)" package="1X4" value="1X4" x="20.32" y="50.165"/>
 <element name="H26" library="headers(.1in)" package="1X2" value="1X2" x="4.445" y="43.815" rot="R180"/>
@@ -2172,14 +2172,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C22" pad="1"/>
 <contactref element="C20" pad="1"/>
 <contactref element="U8" pad="8"/>
-<contactref element="U$118" pad="6"/>
-<contactref element="C39" pad="1"/>
+<contactref element="U9" pad="6"/>
+<contactref element="C35" pad="1"/>
 <contactref element="U7" pad="14"/>
-<contactref element="C42" pad="1"/>
+<contactref element="C38" pad="1"/>
 <contactref element="U10" pad="14"/>
-<contactref element="BTN2" pad="2"/>
-<contactref element="C40" pad="1"/>
-<contactref element="C41" pad="1"/>
+<contactref element="BTN1" pad="2"/>
+<contactref element="C36" pad="1"/>
+<contactref element="C37" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="1"/>
 <polygon width="0.254" layer="1" thermals="no">
@@ -2349,7 +2349,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="GND">
 <contactref element="U13" pad="10"/>
 <polygon width="0.254" layer="16" rank="6">
-<vertex x="-0.635" y="0"/>
+<vertex x="0" y="0"/>
 <vertex x="68.58" y="0"/>
 <vertex x="68.58" y="76.2"/>
 <vertex x="0" y="76.2"/>
@@ -2364,8 +2364,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="H15" pad="2"/>
 <contactref element="H16" pad="2"/>
 <contactref element="H14" pad="2"/>
-<contactref element="U$55" pad="4"/>
-<contactref element="U$55" pad="1"/>
+<contactref element="U14" pad="4"/>
+<contactref element="U14" pad="1"/>
 <contactref element="U2" pad="2"/>
 <contactref element="U2" pad="PAD"/>
 <contactref element="U2" pad="12"/>
@@ -2445,10 +2445,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C32" pad="2"/>
 <contactref element="C20" pad="2"/>
 <contactref element="C22" pad="2"/>
-<contactref element="U$118" pad="7"/>
-<contactref element="U$118" pad="2"/>
-<contactref element="U$118" pad="1"/>
-<contactref element="C39" pad="2"/>
+<contactref element="U9" pad="7"/>
+<contactref element="U9" pad="2"/>
+<contactref element="U9" pad="1"/>
+<contactref element="C35" pad="2"/>
 <contactref element="H1" pad="1"/>
 <contactref element="H1" pad="6"/>
 <contactref element="H1" pad="5"/>
@@ -2460,7 +2460,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U7" pad="PAD"/>
 <contactref element="U7" pad="1"/>
 <contactref element="U7" pad="2"/>
-<contactref element="C42" pad="2"/>
+<contactref element="C38" pad="2"/>
 <contactref element="U10" pad="PAD"/>
 <contactref element="U10" pad="7"/>
 <contactref element="U10" pad="13"/>
@@ -2481,13 +2481,13 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="H10" pad="4"/>
 <contactref element="H10" pad="3"/>
 <contactref element="H10" pad="2"/>
-<contactref element="C40" pad="2"/>
-<contactref element="C41" pad="2"/>
+<contactref element="C36" pad="2"/>
+<contactref element="C37" pad="2"/>
 <contactref element="RA2" pad="2"/>
 <contactref element="RA2" pad="4"/>
 <contactref element="RA2" pad="6"/>
 <contactref element="RA2" pad="8"/>
-<contactref element="C43" pad="-"/>
+<contactref element="C39" pad="-"/>
 <contactref element="U$7" pad="4"/>
 <contactref element="U$6" pad="4"/>
 <contactref element="H26" pad="2"/>
@@ -2909,7 +2909,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9" y1="53.45" x2="6.985" y2="51.435" width="0.3048" layer="1"/>
 </signal>
 <signal name="FET0.G">
-<contactref element="U$55" pad="2"/>
+<contactref element="U14" pad="2"/>
 <contactref element="U7" pad="9"/>
 <via x="9.75" y="56.25" extent="1-16" drill="0.3556"/>
 <wire x1="9.75" y1="56.25" x2="8.5" y2="57.5" width="0.3048" layer="16"/>
@@ -2923,7 +2923,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.365" y1="62.865" x2="9.88" y2="62.865" width="0.3048" layer="1"/>
 </signal>
 <signal name="FET1.G">
-<contactref element="U$55" pad="5"/>
+<contactref element="U14" pad="5"/>
 <contactref element="U7" pad="10"/>
 <wire x1="11.74" y1="56.52" x2="11.74" y2="55.74" width="0.3048" layer="1"/>
 <wire x1="11.74" y1="55.74" x2="11.5" y2="55.5" width="0.3048" layer="1"/>
@@ -3138,7 +3138,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="36.865" y="38.02"/>
 <vertex x="27.865" y="38.02"/>
 </polygon>
-<contactref element="C43" pad="+"/>
+<contactref element="C39" pad="+"/>
 <wire x1="64.135" y1="43.815" x2="64.135" y2="41.275" width="1.27" layer="1"/>
 <wire x1="64.135" y1="41.275" x2="64.135" y2="38.735" width="1.27" layer="1"/>
 <wire x1="64.135" y1="38.735" x2="64.135" y2="36.195" width="1.27" layer="1"/>
@@ -3276,7 +3276,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="BT.RESET">
 <contactref element="U12" pad="22"/>
 <contactref element="R4" pad="1"/>
-<contactref element="BTN2" pad="1"/>
+<contactref element="BTN1" pad="1"/>
 <wire x1="26.67" y1="69.71" x2="26.67" y2="69" width="0.4064" layer="1"/>
 <wire x1="26.67" y1="69" x2="26.67" y2="68.425" width="0.4064" layer="1"/>
 <wire x1="26.67" y1="68.425" x2="26.035" y2="67.79" width="0.4064" layer="1"/>
@@ -3314,8 +3314,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C16" pad="+"/>
 <contactref element="R3" pad="2@1"/>
 <contactref element="R3" pad="2@2"/>
-<contactref element="U$118" pad="9"/>
-<contactref element="U$118" pad="8"/>
+<contactref element="U9" pad="9"/>
+<contactref element="U9" pad="8"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="27.813" y="29.02"/>
 <vertex x="35.615" y="29.02"/>
@@ -3818,7 +3818,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$8" pad="PB3"/>
 <contactref element="U8" pad="24"/>
 <contactref element="U7" pad="16"/>
-<contactref element="U$118" pad="4"/>
+<contactref element="U9" pad="4"/>
 <contactref element="R7" pad="2"/>
 <contactref element="U$6" pad="2"/>
 <wire x1="35.695" y1="20.7" x2="35.695" y2="21.195" width="0.3048" layer="1"/>
@@ -3869,7 +3869,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$8" pad="PB2"/>
 <contactref element="U8" pad="23"/>
 <contactref element="U7" pad="15"/>
-<contactref element="U$118" pad="5"/>
+<contactref element="U9" pad="5"/>
 <contactref element="R6" pad="2"/>
 <contactref element="U$6" pad="3"/>
 <wire x1="35.195" y1="20.7" x2="35.195" y2="21.695" width="0.3048" layer="1"/>
@@ -4413,7 +4413,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D1" pad="P$2"/>
 <contactref element="R3" pad="1@2"/>
 <contactref element="R3" pad="1@1"/>
-<contactref element="U$118" pad="10"/>
+<contactref element="U9" pad="10"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="35.814" y="6.604"/>
 <vertex x="37.846" y="6.604"/>
@@ -4686,8 +4686,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.79" y1="72.18" x2="23.495" y2="72.885" width="0.3048" layer="1"/>
 </signal>
 <signal name="FET0.D">
-<contactref element="U$55" pad="6"/>
-<contactref element="U$55" pad="PAD@1"/>
+<contactref element="U14" pad="6"/>
+<contactref element="U14" pad="PAD@1"/>
 <contactref element="H9" pad="1"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="10.335" y="63.1"/>
@@ -4704,8 +4704,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.795" y1="63.84" x2="10.795" y2="63.365" width="0.6096" layer="1"/>
 </signal>
 <signal name="FET1.D">
-<contactref element="U$55" pad="PAD@2"/>
-<contactref element="U$55" pad="3"/>
+<contactref element="U14" pad="PAD@2"/>
+<contactref element="U14" pad="3"/>
 <contactref element="H9" pad="2"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="11.285" y="61.9"/>
