@@ -327,6 +327,9 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="9.525" y="33.401"/>
 </polygon>
 </signal>
+<signal name="N$1">
+<via x="13.97" y="31.115" extent="1-16" drill="0.3556"/>
+</signal>
 </signals>
 </board>
 </drawing>
