@@ -114,11 +114,11 @@
 <wire x1="9.25" y1="0" x2="9.25" y2="10" width="0" layer="20" curve="115.429121"/>
 <wire x1="9.25" y1="10" x2="2.75" y2="10" width="0" layer="20"/>
 <wire x1="2.75" y1="10" x2="2.75" y2="0" width="0" layer="20" curve="115.243198"/>
-<hole x="6" y="5" drill="5.5"/>
-<text x="1.25" y="4" size="1.778" layer="51" ratio="12" rot="R180" align="bottom-right">+</text>
-<text x="11" y="4" size="1.778" layer="51" ratio="12" rot="R180">-</text>
-<text x="2.5" y="4" size="1.778" layer="52" ratio="12" rot="MR180" align="bottom-right">+</text>
-<text x="9" y="4" size="1.778" layer="52" ratio="12" rot="MR180">-</text>
+<hole x="6" y="5" drill="5.2"/>
+<text x="1.75" y="3.75" size="1.778" layer="51" ratio="12" rot="R180" align="bottom-right">+</text>
+<text x="10.5" y="3.75" size="1.778" layer="51" ratio="12" rot="R180">-</text>
+<text x="3" y="3.75" size="1.778" layer="52" ratio="12" rot="MR180" align="bottom-right">+</text>
+<text x="8.5" y="3.75" size="1.778" layer="52" ratio="12" rot="MR180">-</text>
 <circle x="6" y="5" radius="1.25" width="0.254" layer="51"/>
 </plain>
 <libraries>
@@ -133,6 +133,29 @@
 <circle x="1.27" y="0" radius="0.127" width="0.254" layer="21"/>
 <circle x="2.54" y="0" radius="0.127" width="0.254" layer="21"/>
 <circle x="3.81" y="0" radius="0.127" width="0.254" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="standardparts">
+<packages>
+<package name="0603">
+<description>http://www.panasonic.com/industrial/components/pdf/AOA0000CE1.pdf</description>
+<smd name="1" x="-0.775" y="0" dx="0.65" dy="1" layer="1" stop="no"/>
+<smd name="2" x="0.775" y="0" dx="0.65" dy="1" layer="1" stop="no"/>
+<wire x1="-0.45" y1="0.65" x2="-1.25" y2="0.65" width="0.1" layer="21"/>
+<wire x1="-1.25" y1="0.65" x2="-1.25" y2="-0.65" width="0.1" layer="21"/>
+<wire x1="-1.25" y1="-0.65" x2="-0.45" y2="-0.65" width="0.1" layer="21"/>
+<wire x1="0.45" y1="0.65" x2="1.25" y2="0.65" width="0.1" layer="21"/>
+<wire x1="1.25" y1="0.65" x2="1.25" y2="-0.65" width="0.1" layer="21"/>
+<wire x1="1.25" y1="-0.65" x2="0.45" y2="-0.65" width="0.1" layer="21"/>
+<rectangle x1="-1.15" y1="-0.55" x2="-0.4" y2="0.55" layer="29"/>
+<rectangle x1="0.4" y1="-0.55" x2="1.15" y2="0.55" layer="29"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="21"/>
+<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="21"/>
+<rectangle x1="-0.8" y1="0.3" x2="0.8" y2="0.4" layer="21"/>
+<rectangle x1="-0.8" y1="-0.4" x2="0.8" y2="-0.3" layer="21"/>
+<text x="-1.27" y="0.889" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -319,10 +342,11 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="headers(.05in)" package="1X4.LOCK" value="1X4.LOCK" x="4.1" y="1"/>
+<element name="C1" library="standardparts" package="0603" value=".1uF" x="6" y="9"/>
 </elements>
 <signals>
 <signal name="M+">
-<via x="1.75" y="5" extent="1-16" drill="1.5" diameter="2.1844"/>
+<via x="2.25" y="5" extent="1-16" drill="1"/>
 <contactref element="U$1" pad="1"/>
 <contactref element="U$1" pad="2"/>
 <polygon width="0.254" layer="1" thermals="no">
@@ -337,9 +361,14 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="5.75" y="10"/>
 <vertex x="0" y="10"/>
 </polygon>
+<contactref element="C1" pad="1"/>
+<via x="2.25" y="5.25" extent="1-16" drill="1"/>
+<via x="2.25" y="5.5" extent="1-16" drill="1"/>
+<via x="2.25" y="4.75" extent="1-16" drill="1"/>
+<via x="2.25" y="4.5" extent="1-16" drill="1"/>
 </signal>
 <signal name="M-">
-<via x="10.25" y="5" extent="1-16" drill="1.5"/>
+<via x="9.75" y="5" extent="1-16" drill="1"/>
 <contactref element="U$1" pad="3"/>
 <contactref element="U$1" pad="4"/>
 <polygon width="0.254" layer="16" thermals="no">
@@ -354,13 +383,34 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="12" y="10"/>
 <vertex x="6.25" y="10"/>
 </polygon>
+<contactref element="C1" pad="2"/>
+<via x="9.75" y="4.75" extent="1-16" drill="1"/>
+<via x="9.75" y="4.5" extent="1-16" drill="1"/>
+<via x="9.75" y="5.25" extent="1-16" drill="1"/>
+<via x="9.75" y="5.5" extent="1-16" drill="1"/>
 </signal>
 </signals>
 <errors>
-<approved hash="4,1,d3613a20f9a3e1a9"/>
-<approved hash="4,1,0324ea007e3d6652"/>
-<approved hash="4,16,d3613a20f9a3e1a9"/>
-<approved hash="4,16,0324ea007e3d6652"/>
+<approved hash="2,20,9268059a94cd85c2"/>
+<approved hash="2,20,92080485165e062e"/>
+<approved hash="2,20,6eb297b20d5002ab"/>
+<approved hash="2,20,604a9b9f03230e0d"/>
+<approved hash="2,20,61ad9bf7823a8e9b"/>
+<approved hash="2,20,90c4041e17c505e2"/>
+<approved hash="2,20,af9b1a00948ce7ec"/>
+<approved hash="2,20,af1b18d91727661e"/>
+<approved hash="2,20,926c020d922684ba"/>
+<approved hash="2,20,64b195469f1e9812"/>
+<approved hash="2,20,e31b18f8fa02c703"/>
+<approved hash="2,20,23ad9bcc611fef9f"/>
+<approved hash="2,20,d20804a5b77ae731"/>
+<approved hash="2,20,d26c022d330265a5"/>
+<approved hash="2,20,d0c4043eb6e1e4fd"/>
+<approved hash="2,20,2cb29789ee7563af"/>
+<approved hash="2,20,5b96345ac11e9833"/>
+<approved hash="2,20,d26805ba35e964dd"/>
+<approved hash="2,20,e39b1a2179a946f1"/>
+<approved hash="2,20,224a9ba4e0066f09"/>
 </errors>
 </board>
 </drawing>
