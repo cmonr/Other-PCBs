@@ -144,12 +144,12 @@
 <text x="5.08" y="73.66" size="1.778" layer="51" font="vector" ratio="12" align="bottom-center">GPIO</text>
 <wire x1="31.365" y1="36.52" x2="31.365" y2="37.77" width="0.1524" layer="41"/>
 <wire x1="24.5" y1="34" x2="25.75" y2="34" width="0.1524" layer="41"/>
-<text x="8.89" y="27.94" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">0</text>
-<text x="8.89" y="30.48" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">1</text>
-<text x="8.89" y="33.02" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">2</text>
-<text x="8.89" y="35.56" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">3</text>
-<text x="8.89" y="38.1" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">4</text>
-<text x="8.89" y="40.64" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">5</text>
+<text x="8.89" y="40.64" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">0</text>
+<text x="8.89" y="38.1" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">1</text>
+<text x="8.89" y="35.56" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">2</text>
+<text x="8.89" y="33.02" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">3</text>
+<text x="8.89" y="30.48" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">4</text>
+<text x="8.89" y="27.94" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">5</text>
 <text x="1.778" y="45.72" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">-</text>
 <text x="4.318" y="45.72" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">+</text>
 <text x="6.858" y="45.085" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">~</text>
@@ -191,12 +191,12 @@
 <text x="2.032" y="45.72" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">-</text>
 <text x="4.572" y="45.72" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">+</text>
 <text x="7.112" y="45.085" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">~</text>
-<text x="8.89" y="40.64" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">5</text>
-<text x="8.89" y="38.1" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">4</text>
-<text x="8.89" y="35.56" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">3</text>
-<text x="8.89" y="33.02" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">2</text>
-<text x="8.89" y="30.48" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">1</text>
-<text x="8.89" y="27.94" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">0</text>
+<text x="8.89" y="27.94" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">5</text>
+<text x="8.89" y="30.48" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">4</text>
+<text x="8.89" y="33.02" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">3</text>
+<text x="8.89" y="35.56" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">2</text>
+<text x="8.89" y="38.1" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">1</text>
+<text x="8.89" y="40.64" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">0</text>
 <text x="44.45" y="50.8" size="1.27" layer="51" font="vector" ratio="12" align="center-left">XBee</text>
 <text x="44.45" y="52.705" size="1.27" layer="51" font="vector" ratio="12" align="center-left">Bluetooth</text>
 <text x="41.91" y="48.26" size="1.016" layer="51" font="vector" ratio="12" rot="R90" align="top-right">TxO</text>
@@ -219,18 +219,18 @@
 <text x="25.4" y="54.61" size="1.016" layer="52" font="vector" ratio="12" rot="MR270" align="center-right">SCL</text>
 <text x="22.86" y="54.61" size="1.016" layer="52" font="vector" ratio="12" rot="MR270" align="center-right">SDA</text>
 <text x="64.135" y="51.435" size="1.016" layer="52" font="vector" ratio="12" rot="MR270" align="center-right">RST</text>
-<text x="59.69" y="27.94" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">0</text>
-<text x="59.69" y="30.48" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">1</text>
-<text x="59.69" y="33.02" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">2</text>
-<text x="59.69" y="35.56" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">3</text>
-<text x="59.69" y="38.1" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">4</text>
-<text x="59.69" y="40.64" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">5</text>
-<text x="59.69" y="40.64" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">5</text>
-<text x="59.69" y="38.1" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">4</text>
-<text x="59.69" y="35.56" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">3</text>
-<text x="59.69" y="33.02" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">2</text>
-<text x="59.69" y="30.48" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">1</text>
-<text x="59.69" y="27.94" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">0</text>
+<text x="59.69" y="40.64" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">0</text>
+<text x="59.69" y="38.1" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">1</text>
+<text x="59.69" y="35.56" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">2</text>
+<text x="59.69" y="33.02" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">3</text>
+<text x="59.69" y="30.48" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">4</text>
+<text x="59.69" y="27.94" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">5</text>
+<text x="59.69" y="27.94" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">5</text>
+<text x="59.69" y="30.48" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">4</text>
+<text x="59.69" y="33.02" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">3</text>
+<text x="59.69" y="35.56" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">2</text>
+<text x="59.69" y="38.1" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">1</text>
+<text x="59.69" y="40.64" size="1.27" layer="51" font="vector" ratio="12" align="bottom-center">0</text>
 <text x="8.89" y="69.85" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">0</text>
 <text x="8.89" y="67.31" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">1</text>
 <text x="8.89" y="64.77" size="1.27" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">2</text>
@@ -2033,7 +2033,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="H3" library="headers(.1in)" package="1X6" value="1X6" x="61.595" y="41.275" rot="R270"/>
 <element name="H4" library="headers(.1in)" package="1X6" value="1X6" x="1.905" y="28.575" rot="R90"/>
 <element name="H5" library="headers(.1in)" package="1X6" value="1X6" x="4.445" y="28.575" rot="R90"/>
-<element name="H6" library="headers(.1in)" package="1X6" value="1X6" x="6.985" y="28.575" rot="R90"/>
+<element name="H6" library="headers(.1in)" package="1X6" value="1X6" x="6.985" y="41.275" rot="R270"/>
 <element name="H17" library="phoenixcontact" package="PTS.PLUG" value="1X2.PTS" x="13.97" y="6.985" rot="R180"/>
 <element name="H18" library="phoenixcontact" package="PTS.PLUG" value="1X2.PTS" x="24.13" y="6.985" rot="R180"/>
 <element name="H19" library="phoenixcontact" package="PTS.PLUG" value="1X2.PTS" x="44.45" y="6.985" rot="R180"/>
@@ -2847,50 +2847,50 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.13" y1="39.37" x2="47.25" y2="45.25" width="0.3048" layer="16"/>
 </signal>
 <signal name="AD0">
-<contactref element="H6" pad="1"/>
 <contactref element="U$8" pad="PE3"/>
 <wire x1="13.97" y1="25.4" x2="13.335" y2="25.4" width="0.6096" layer="1"/>
 <wire x1="13.335" y1="25.4" x2="12.065" y2="26.67" width="0.6096" layer="1"/>
 <wire x1="12.065" y1="26.67" x2="10.795" y2="26.67" width="0.6096" layer="1"/>
 <wire x1="10.795" y1="26.67" x2="8.89" y2="28.575" width="0.6096" layer="1"/>
+<contactref element="H6" pad="6"/>
 <wire x1="8.89" y1="28.575" x2="6.985" y2="28.575" width="0.6096" layer="1"/>
 </signal>
 <signal name="AD1">
-<contactref element="H6" pad="2"/>
 <contactref element="U$8" pad="PE2"/>
 <wire x1="13.97" y1="27.94" x2="13.335" y2="27.94" width="0.6096" layer="1"/>
 <wire x1="13.335" y1="27.94" x2="12.065" y2="29.21" width="0.6096" layer="1"/>
 <wire x1="12.065" y1="29.21" x2="10.795" y2="29.21" width="0.6096" layer="1"/>
 <wire x1="10.795" y1="29.21" x2="8.89" y2="31.115" width="0.6096" layer="1"/>
+<contactref element="H6" pad="5"/>
 <wire x1="8.89" y1="31.115" x2="6.985" y2="31.115" width="0.6096" layer="1"/>
 </signal>
 <signal name="AD2">
-<contactref element="H6" pad="3"/>
 <contactref element="U$8" pad="PE1"/>
 <wire x1="13.97" y1="30.48" x2="13.335" y2="30.48" width="0.6096" layer="1"/>
 <wire x1="13.335" y1="30.48" x2="12.065" y2="31.75" width="0.6096" layer="1"/>
 <wire x1="12.065" y1="31.75" x2="10.795" y2="31.75" width="0.6096" layer="1"/>
 <wire x1="10.795" y1="31.75" x2="8.89" y2="33.655" width="0.6096" layer="1"/>
+<contactref element="H6" pad="4"/>
 <wire x1="8.89" y1="33.655" x2="6.985" y2="33.655" width="0.6096" layer="1"/>
 </signal>
 <signal name="AD4">
-<contactref element="H6" pad="5"/>
 <contactref element="U$8" pad="PD3"/>
 <wire x1="13.97" y1="33.02" x2="13.335" y2="33.02" width="0.6096" layer="1"/>
 <wire x1="13.335" y1="33.02" x2="12.065" y2="34.29" width="0.6096" layer="1"/>
 <wire x1="12.065" y1="34.29" x2="10.795" y2="34.29" width="0.6096" layer="1"/>
 <wire x1="10.795" y1="34.29" x2="10.16" y2="34.925" width="0.6096" layer="1"/>
 <wire x1="10.16" y1="34.925" x2="10.16" y2="35.56" width="0.6096" layer="1"/>
+<contactref element="H6" pad="2"/>
 <wire x1="10.16" y1="35.56" x2="6.985" y2="38.735" width="0.6096" layer="1"/>
 </signal>
 <signal name="AD5">
-<contactref element="H6" pad="6"/>
 <contactref element="U$8" pad="PD2"/>
 <wire x1="13.97" y1="35.56" x2="13.335" y2="35.56" width="0.6096" layer="1"/>
 <wire x1="13.335" y1="35.56" x2="12.065" y2="36.83" width="0.6096" layer="1"/>
 <wire x1="12.065" y1="36.83" x2="10.795" y2="36.83" width="0.6096" layer="1"/>
 <wire x1="10.795" y1="36.83" x2="10.16" y2="37.465" width="0.6096" layer="1"/>
 <wire x1="10.16" y1="37.465" x2="10.16" y2="38.1" width="0.6096" layer="1"/>
+<contactref element="H6" pad="1"/>
 <wire x1="10.16" y1="38.1" x2="6.985" y2="41.275" width="0.6096" layer="1"/>
 </signal>
 <signal name="IO0">
@@ -4048,9 +4048,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.25" y1="74" x2="18.25" y2="74" width="0.3048" layer="16"/>
 </signal>
 <signal name="AD3">
-<contactref element="H6" pad="4"/>
 <contactref element="U$8" pad="PE0"/>
-<wire x1="6.985" y1="36.195" x2="10.16" y2="39.37" width="0.6096" layer="16"/>
 <wire x1="10.16" y1="39.37" x2="10.16" y2="41.275" width="0.6096" layer="16"/>
 <wire x1="10.16" y1="41.275" x2="10.795" y2="41.91" width="0.6096" layer="16"/>
 <wire x1="16.79" y1="46" x2="25.5" y2="46" width="0.6096" layer="16"/>
@@ -4070,6 +4068,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="55.88" y1="41.91" x2="57.15" y2="40.64" width="0.6096" layer="16"/>
 <wire x1="55.88" y1="41.91" x2="52.09" y2="41.91" width="0.6096" layer="16"/>
 <wire x1="52.09" y1="41.91" x2="48" y2="46" width="0.6096" layer="16"/>
+<contactref element="H6" pad="3"/>
+<wire x1="10.16" y1="39.37" x2="6.985" y2="36.195" width="0.6096" layer="16"/>
 </signal>
 <signal name="M0.SPD">
 <contactref element="U1" pad="1"/>
