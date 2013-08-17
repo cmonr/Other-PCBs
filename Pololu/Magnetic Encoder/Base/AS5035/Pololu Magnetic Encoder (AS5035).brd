@@ -697,11 +697,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="16"/>
 <contactref element="C1" pad="1"/>
 <contactref element="J1" pad="2"/>
-<contactref element="U1" pad="11"/>
 <contactref element="U$5" pad="1"/>
 <wire x1="5.095" y1="8.879" x2="3.961" y2="8.879" width="0.4064" layer="16"/>
 <wire x1="3.961" y1="8.879" x2="3.315" y2="9.525" width="0.4064" layer="16"/>
-<wire x1="5.095" y1="5.629" x2="1.991" y2="5.629" width="0.4064" layer="16"/>
 <wire x1="1.991" y1="5.629" x2="1.905" y2="5.715" width="0.4064" layer="16"/>
 <wire x1="1.905" y1="5.715" x2="1.524" y2="6.096" width="0.4064" layer="1"/>
 <wire x1="1.524" y1="6.096" x2="1.524" y2="8.255" width="0.4064" layer="1"/>
@@ -743,6 +741,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="0" y="11.684"/>
 </polygon>
 <contactref element="U$5" pad="2"/>
+<contactref element="U1" pad="11"/>
 </signal>
 <signal name="N$4">
 <contactref element="C2" pad="1"/>
