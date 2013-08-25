@@ -1080,7 +1080,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <part name="C3" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1uF"/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$11" library="headers(.1in)" deviceset="1X4" device=".LOCK" value="1X4.LOCK"/>
-<part name="R14" library="standardparts" deviceset="RESISTOR" device=".0603" value="5"/>
+<part name="R13" library="standardparts" deviceset="RESISTOR" device=".0603" value="5.1"/>
 <part name="U$12" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 </parts>
@@ -1127,7 +1127,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <instance part="C3" gate="G$1" x="114.3" y="48.26" rot="MR90"/>
 <instance part="U$9" gate="G$1" x="53.34" y="30.48"/>
 <instance part="U$11" gate="G$1" x="27.94" y="45.72" rot="MR0"/>
-<instance part="R14" gate="G$1" x="88.9" y="60.96"/>
+<instance part="R13" gate="G$1" x="88.9" y="60.96"/>
 <instance part="U$12" gate="G$1" x="111.76" y="50.8"/>
 <instance part="U$13" gate="G$1" x="111.76" y="43.18"/>
 </instances>
@@ -1409,7 +1409,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 <junction x="93.98" y="48.26"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
 </segment>
@@ -1527,7 +1527,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>

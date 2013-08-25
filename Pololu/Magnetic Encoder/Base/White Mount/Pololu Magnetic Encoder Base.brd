@@ -109,12 +109,12 @@
 <wire x1="6.096" y1="8.89" x2="6.096" y2="0" width="0" layer="20"/>
 <hole x="5.08" y="13.335" drill="2.5"/>
 <hole x="22.86" y="13.335" drill="2.5"/>
+<wire x1="8.0645" y1="31.3055" x2="8.89" y2="30.48" width="0" layer="20" curve="90"/>
 <wire x1="8.89" y1="30.48" x2="19.05" y2="30.48" width="0" layer="20"/>
-<wire x1="19.05" y1="30.48" x2="19.05" y2="32.131" width="0" layer="20"/>
+<wire x1="19.05" y1="30.48" x2="19.8755" y2="31.3055" width="0" layer="20" curve="90"/>
+<wire x1="19.8755" y1="31.3055" x2="19.05" y2="32.131" width="0" layer="20" curve="90"/>
 <wire x1="19.05" y1="32.131" x2="8.89" y2="32.131" width="0" layer="20"/>
-<wire x1="8.89" y1="32.131" x2="8.89" y2="30.48" width="0" layer="20"/>
-<hole x="8.89" y="31.3055" drill="1.6"/>
-<hole x="19.05" y="31.3055" drill="1.6"/>
+<wire x1="8.89" y1="32.131" x2="8.0645" y2="31.3055" width="0" layer="20" curve="90"/>
 <text x="8.255" y="26.67" size="1.778" layer="51" font="vector" ratio="12">3.3v</text>
 <text x="8.255" y="24.13" size="1.778" layer="51" font="vector" ratio="12">GND</text>
 <text x="18.415" y="26.67" size="1.778" layer="51" font="vector" ratio="12">A</text>
@@ -131,6 +131,17 @@
 <rectangle x1="9.525" y1="29.21" x2="18.415" y2="30.48" layer="29" rot="R180"/>
 <text x="13.97" y="1.905" size="0.8128" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">Cruz Monrreal II</text>
 <text x="13.97" y="0.635" size="0.8128" layer="52" font="vector" ratio="12" rot="MR0" align="bottom-center">AnomalousMaker.com</text>
+<text x="13.97" y="1.905" size="0.8128" layer="51" font="vector" ratio="12" align="bottom-center">Cruz Monrreal II</text>
+<text x="13.97" y="0.635" size="0.8128" layer="51" font="vector" ratio="12" align="bottom-center">AnomalousMaker.com</text>
+<hole x="8.89" y="31.3055" drill="1.651"/>
+<hole x="10.16" y="31.3055" drill="1.651"/>
+<hole x="11.43" y="31.3055" drill="1.651"/>
+<hole x="12.7" y="31.3055" drill="1.651"/>
+<hole x="13.97" y="31.3055" drill="1.651"/>
+<hole x="15.24" y="31.3055" drill="1.651"/>
+<hole x="16.51" y="31.3055" drill="1.651"/>
+<hole x="17.78" y="31.3055" drill="1.651"/>
+<hole x="19.05" y="31.3055" drill="1.651"/>
 </plain>
 <libraries>
 </libraries>
@@ -332,7 +343,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="N$1">
-<via x="13.97" y="31.115" extent="1-16" drill="0.3556"/>
+<via x="13.97" y="29.845" extent="1-16" drill="0.3556"/>
 </signal>
 </signals>
 </board>
