@@ -134,13 +134,21 @@
 <text x="13.97" y="1.905" size="0.8128" layer="51" font="vector" ratio="12" align="bottom-center">Cruz Monrreal II</text>
 <text x="13.97" y="0.635" size="0.8128" layer="51" font="vector" ratio="12" align="bottom-center">AnomalousMaker.com</text>
 <hole x="8.89" y="31.3055" drill="1.651"/>
+<hole x="9.525" y="31.3055" drill="1.651"/>
 <hole x="10.16" y="31.3055" drill="1.651"/>
+<hole x="10.795" y="31.3055" drill="1.651"/>
 <hole x="11.43" y="31.3055" drill="1.651"/>
+<hole x="12.065" y="31.3055" drill="1.651"/>
 <hole x="12.7" y="31.3055" drill="1.651"/>
+<hole x="13.335" y="31.3055" drill="1.651"/>
 <hole x="13.97" y="31.3055" drill="1.651"/>
+<hole x="14.605" y="31.3055" drill="1.651"/>
 <hole x="15.24" y="31.3055" drill="1.651"/>
+<hole x="15.875" y="31.3055" drill="1.651"/>
 <hole x="16.51" y="31.3055" drill="1.651"/>
+<hole x="17.145" y="31.3055" drill="1.651"/>
 <hole x="17.78" y="31.3055" drill="1.651"/>
+<hole x="18.415" y="31.3055" drill="1.651"/>
 <hole x="19.05" y="31.3055" drill="1.651"/>
 </plain>
 <libraries>
@@ -153,7 +161,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="OSHPark">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -211,10 +219,10 @@ Please make sure your boards conform to these design rules.</description>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="16mil"/>
@@ -341,9 +349,9 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="18.415" y="33.401"/>
 <vertex x="9.525" y="33.401"/>
 </polygon>
-</signal>
-<signal name="N$1">
-<via x="13.97" y="29.845" extent="1-16" drill="0.3556"/>
+<via x="13.97" y="29.591" extent="1-16" drill="0.3556"/>
+<via x="13.97" y="32.893" extent="1-16" drill="0.3556"/>
+<wire x1="13.97" y1="29.591" x2="13.97" y2="32.893" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
