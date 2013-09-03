@@ -1057,10 +1057,10 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$19" library="thinkmaketest" deviceset="A4_LAYOUT" device=""/>
-<part name="R1" library="standardparts" deviceset="RESISTOR" device=".0603" value="33"/>
-<part name="R2" library="standardparts" deviceset="RESISTOR" device=".0603" value="33"/>
-<part name="R3" library="standardparts" deviceset="RESISTOR" device=".0603" value="33"/>
-<part name="R4" library="standardparts" deviceset="RESISTOR" device=".0603" value="33"/>
+<part name="R1" library="standardparts" deviceset="RESISTOR" device=".0603" value="51"/>
+<part name="R2" library="standardparts" deviceset="RESISTOR" device=".0603" value="51"/>
+<part name="R3" library="standardparts" deviceset="RESISTOR" device=".0603" value="51"/>
+<part name="R4" library="standardparts" deviceset="RESISTOR" device=".0603" value="51"/>
 <part name="R5" library="standardparts" deviceset="RESISTOR" device=".0603" value="47k"/>
 <part name="R6" library="standardparts" deviceset="RESISTOR" device=".0603" value="47k"/>
 <part name="R7" library="standardparts" deviceset="RESISTOR" device=".0603" value="47k"/>
