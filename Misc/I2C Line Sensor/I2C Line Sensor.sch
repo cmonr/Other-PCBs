@@ -1042,14 +1042,14 @@ Source: www.ti.com .. ADS7828.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$2" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$3" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$4" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$5" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$6" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$7" library="SparkFun" deviceset="QRE1113" device=""/>
-<part name="U$8" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U2" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U3" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U4" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U5" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U6" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U7" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U8" library="SparkFun" deviceset="QRE1113" device=""/>
+<part name="U9" library="SparkFun" deviceset="QRE1113" device=""/>
 <part name="U1" library="burr-brown" deviceset="ADS7828" device="" value="ADS7830"/>
 <part name="U$14" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$15" library="microbuilder" deviceset="GND" device=""/>
@@ -1089,14 +1089,14 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="27.94" y="144.78"/>
-<instance part="U$2" gate="G$1" x="27.94" y="101.6"/>
-<instance part="U$3" gate="G$1" x="58.42" y="144.78"/>
-<instance part="U$4" gate="G$1" x="58.42" y="101.6"/>
-<instance part="U$5" gate="G$1" x="88.9" y="144.78"/>
-<instance part="U$6" gate="G$1" x="88.9" y="101.6"/>
-<instance part="U$7" gate="G$1" x="119.38" y="144.78"/>
-<instance part="U$8" gate="G$1" x="119.38" y="101.6"/>
+<instance part="U2" gate="G$1" x="27.94" y="144.78"/>
+<instance part="U3" gate="G$1" x="27.94" y="101.6"/>
+<instance part="U4" gate="G$1" x="58.42" y="144.78"/>
+<instance part="U5" gate="G$1" x="58.42" y="101.6"/>
+<instance part="U6" gate="G$1" x="88.9" y="144.78"/>
+<instance part="U7" gate="G$1" x="88.9" y="101.6"/>
+<instance part="U8" gate="G$1" x="119.38" y="144.78"/>
+<instance part="U9" gate="G$1" x="119.38" y="101.6"/>
 <instance part="U1" gate="G$1" x="71.12" y="48.26"/>
 <instance part="U$14" gate="G$1" x="93.98" y="63.5"/>
 <instance part="U$15" gate="G$1" x="93.98" y="30.48"/>
@@ -1137,20 +1137,20 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <wire x1="33.02" y1="137.16" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="K"/>
+<pinref part="U2" gate="G$1" pin="K"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="A"/>
+<pinref part="U3" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="106.68" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A"/>
+<pinref part="U5" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="111.76" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -1158,20 +1158,20 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <net name="N$5" class="0">
 <segment>
 <wire x1="63.5" y1="137.16" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="K"/>
+<pinref part="U4" gate="G$1" pin="K"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <wire x1="93.98" y1="137.16" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="K"/>
+<pinref part="U6" gate="G$1" pin="K"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="A"/>
+<pinref part="U7" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="111.76" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -1179,13 +1179,13 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <net name="N$8" class="0">
 <segment>
 <wire x1="124.46" y1="137.16" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="K"/>
+<pinref part="U8" gate="G$1" pin="K"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="A"/>
+<pinref part="U9" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="111.76" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -1218,29 +1218,29 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <junction x="55.88" y="88.9"/>
 <junction x="86.36" y="88.9"/>
 <junction x="116.84" y="88.9"/>
-<pinref part="U$2" gate="G$1" pin="K"/>
-<pinref part="U$8" gate="G$1" pin="K"/>
-<pinref part="U$4" gate="G$1" pin="K"/>
-<pinref part="U$6" gate="G$1" pin="K"/>
-<pinref part="U$4" gate="G$1" pin="E"/>
-<pinref part="U$6" gate="G$1" pin="E"/>
-<pinref part="U$2" gate="G$1" pin="E"/>
-<pinref part="U$8" gate="G$1" pin="E"/>
+<pinref part="U3" gate="G$1" pin="K"/>
+<pinref part="U9" gate="G$1" pin="K"/>
+<pinref part="U5" gate="G$1" pin="K"/>
+<pinref part="U7" gate="G$1" pin="K"/>
+<pinref part="U5" gate="G$1" pin="E"/>
+<pinref part="U7" gate="G$1" pin="E"/>
+<pinref part="U3" gate="G$1" pin="E"/>
+<pinref part="U9" gate="G$1" pin="E"/>
 <pinref part="U$22" gate="G$1" pin="GND"/>
 <wire x1="116.84" y1="86.36" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="E"/>
+<pinref part="U8" gate="G$1" pin="E"/>
 <wire x1="116.84" y1="134.62" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="E"/>
+<pinref part="U6" gate="G$1" pin="E"/>
 <wire x1="86.36" y1="134.62" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="134.62" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
 <junction x="86.36" y="134.62"/>
 <wire x1="55.88" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="E"/>
+<pinref part="U4" gate="G$1" pin="E"/>
 <wire x1="55.88" y1="137.16" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
 <junction x="55.88" y="134.62"/>
-<pinref part="U$1" gate="G$1" pin="E"/>
+<pinref part="U2" gate="G$1" pin="E"/>
 <wire x1="25.4" y1="137.16" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="GND"/>
@@ -1280,7 +1280,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="25.4" y1="152.4" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="152.4" x2="17.78" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="U2" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="154.94" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <junction x="25.4" y="152.4"/>
@@ -1291,7 +1291,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="25.4" y1="109.22" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
+<pinref part="U3" gate="G$1" pin="C"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <junction x="25.4" y="109.22"/>
@@ -1307,7 +1307,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="55.88" y1="152.4" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="152.4" x2="48.26" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="C"/>
+<pinref part="U4" gate="G$1" pin="C"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="152.4" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <junction x="55.88" y="152.4"/>
@@ -1323,7 +1323,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="55.88" y1="109.22" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="C"/>
+<pinref part="U5" gate="G$1" pin="C"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="109.22" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <junction x="55.88" y="109.22"/>
@@ -1339,7 +1339,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="86.36" y1="152.4" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
+<pinref part="U6" gate="G$1" pin="C"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="154.94" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <junction x="86.36" y="152.4"/>
@@ -1355,7 +1355,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="86.36" y1="109.22" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="C"/>
+<pinref part="U7" gate="G$1" pin="C"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="111.76" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <junction x="86.36" y="109.22"/>
@@ -1371,7 +1371,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="116.84" y1="152.4" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="152.4" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="C"/>
+<pinref part="U8" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="152.4" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 <junction x="116.84" y="152.4"/>
@@ -1392,7 +1392,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <segment>
 <wire x1="116.84" y1="109.22" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="C"/>
+<pinref part="U9" gate="G$1" pin="C"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="111.76" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
 <junction x="116.84" y="109.22"/>
@@ -1435,10 +1435,10 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <junction x="33.02" y="162.56"/>
 <junction x="63.5" y="162.56"/>
 <junction x="93.98" y="162.56"/>
-<pinref part="U$1" gate="G$1" pin="A"/>
-<pinref part="U$3" gate="G$1" pin="A"/>
-<pinref part="U$5" gate="G$1" pin="A"/>
-<pinref part="U$7" gate="G$1" pin="A"/>
+<pinref part="U2" gate="G$1" pin="A"/>
+<pinref part="U4" gate="G$1" pin="A"/>
+<pinref part="U6" gate="G$1" pin="A"/>
+<pinref part="U8" gate="G$1" pin="A"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="162.56" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
