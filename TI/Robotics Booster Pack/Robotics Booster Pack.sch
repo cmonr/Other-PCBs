@@ -4969,17 +4969,17 @@ grid 3.5 mm, diameter 10 mm</description>
 <part name="R8" library="standardparts" deviceset="RESISTOR" device=".0603" value="10k"/>
 <part name="U$68" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$73" library="microbuilder" deviceset="5.0V" device=""/>
+<part name="U$20" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$75" library="microbuilder" deviceset="GND" device=""/>
+<part name="C13" library="standardparts" deviceset="CAPACITOR" device=".0603" value=".1uF"/>
+<part name="C14" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="284.48" y="251.46" size="2.54" layer="97" align="top-left">NOTES:
-- Tweak 5v circuit value to output 5.5v
-  - Too much voltage sag at lower voltages
-  - Double Check: Confirm diode isn't droppong voltage too low/cause wasn't because of 2S Lipo
 - Change headers to Samtec Parts
-- Update Rn-41/2 Footprint
-- Add Power/En to BT and XBee</text>
+- Update Rn-41/2 Footprint</text>
 </plain>
 <instances>
 <instance part="U$8" gate="G$1" x="332.74" y="78.74"/>
@@ -5211,6 +5211,10 @@ grid 3.5 mm, diameter 10 mm</description>
 <instance part="R8" gate="G$1" x="33.02" y="152.4" rot="R270"/>
 <instance part="U$68" gate="G$1" x="33.02" y="147.32"/>
 <instance part="U$73" gate="G$1" x="292.1" y="157.48"/>
+<instance part="U$20" gate="G$1" x="444.5" y="101.6"/>
+<instance part="U$75" gate="G$1" x="444.5" y="91.44"/>
+<instance part="C13" gate="G$1" x="444.5" y="96.52" rot="MR270"/>
+<instance part="C14" gate="G$1" x="447.04" y="96.52" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -5677,6 +5681,13 @@ grid 3.5 mm, diameter 10 mm</description>
 <wire x1="332.74" y1="149.86" x2="325.12" y2="149.86" width="0.1524" layer="91"/>
 <junction x="332.74" y="149.86"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="U$75" gate="G$1" pin="GND"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="444.5" y1="93.98" x2="447.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="444.5" y="93.98"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -5845,6 +5856,13 @@ grid 3.5 mm, diameter 10 mm</description>
 <junction x="106.68" y="231.14"/>
 <wire x1="109.22" y1="233.68" x2="111.76" y2="233.68" width="0.1524" layer="91"/>
 <junction x="111.76" y="233.68"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="U$20" gate="G$1" pin="3.3V"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="447.04" y1="99.06" x2="444.5" y2="99.06" width="0.1524" layer="91"/>
+<junction x="444.5" y="99.06"/>
 </segment>
 </net>
 <net name="SVRO0" class="0">
