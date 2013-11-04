@@ -2275,7 +2275,7 @@ SMT header is CONN-09042.</description>
 <pad name="6" x="12.7" y="0" drill="1.016" diameter="1.778"/>
 <rectangle x1="12.3825" y1="-0.3175" x2="13.0175" y2="0.3175" layer="21"/>
 </package>
-<package name="2X3@1">
+<package name="2X3">
 <rectangle x1="-0.3175" y1="-0.3175" x2="0.3175" y2="0.3175" layer="21"/>
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.778"/>
 <pad name="2" x="0" y="2.54" drill="1.016" diameter="1.778"/>
@@ -2617,7 +2617,7 @@ SMT header is CONN-09042.</description>
 <gate name="G$1" symbol="2X3_HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2X3@1">
+<device name="" package="2X3">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4902,14 +4902,11 @@ grid 3.5 mm, diameter 10 mm</description>
 <part name="H7" library="headers(.1in)" deviceset="1X3" device=""/>
 <part name="U$45" library="microbuilder" deviceset="GND" device=""/>
 <part name="H9" library="headers(.1in)" deviceset="1X3" device=""/>
-<part name="U$13" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$41" library="microbuilder" deviceset="GND" device=""/>
 <part name="J2" library="solderjumper" deviceset="SOLDERJUMPER.2" device=".MED"/>
 <part name="U$12" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$1" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$36" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$37" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$6" library="headers(.1in)" deviceset="1X4" device=""/>
 <part name="D1" library="comchip" deviceset="CDBMT____-HF" device="" value="CDBMT2100-HF"/>
 <part name="D3" library="comchip" deviceset="CDBMT____-HF" device="" value="CDBMT2100-HF"/>
 <part name="D4" library="comchip" deviceset="CDBMT____-HF" device="" value="CDBMT2100-HF"/>
@@ -4952,7 +4949,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <part name="U$15" library="headers(.1in)" deviceset="1X2" device=""/>
 <part name="C1" library="microbuilder" deviceset="CAP_ELECTROLYTIC" device="PANASONIC_D" value="100uF"/>
 <part name="U15" library="packages(ti)" deviceset="TPS715XX" device=".DCK"/>
-<part name="U16" library="packages(ti)" deviceset="TPS6215X" device=".RGT"/>
+<part name="U16" library="packages(ti)" deviceset="TPS6215X" device=".RGT" value="TPS62152.RGT"/>
 <part name="C10" library="standardparts" deviceset="CAPACITOR" device=".0603" value=".1uF"/>
 <part name="C11" library="standardparts" deviceset="CAPACITOR" device=".0603" value="1uF"/>
 <part name="U$29" library="microbuilder" deviceset="GND" device=""/>
@@ -5081,9 +5078,9 @@ grid 3.5 mm, diameter 10 mm</description>
 <instance part="U7" gate="G$1" x="231.14" y="55.88"/>
 <instance part="U$124" gate="G$1" x="220.98" y="66.04"/>
 <instance part="U$125" gate="G$1" x="220.98" y="43.18"/>
-<instance part="U$98" gate="G$1" x="266.7" y="66.04"/>
-<instance part="U$127" gate="G$1" x="266.7" y="55.88"/>
-<instance part="C38" gate="G$1" x="266.7" y="60.96" rot="R270"/>
+<instance part="U$98" gate="G$1" x="254" y="66.04"/>
+<instance part="U$127" gate="G$1" x="254" y="55.88"/>
+<instance part="C38" gate="G$1" x="254" y="60.96" rot="R270"/>
 <instance part="LED1" gate="G$1" x="322.58" y="165.1"/>
 <instance part="LED2" gate="G$1" x="320.04" y="160.02"/>
 <instance part="LED3" gate="G$1" x="317.5" y="154.94"/>
@@ -5128,8 +5125,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <instance part="H7" gate="G$1" x="55.88" y="180.34"/>
 <instance part="U$45" gate="G$1" x="78.74" y="177.8"/>
 <instance part="H9" gate="G$1" x="66.04" y="180.34"/>
-<instance part="U$13" gate="G$1" x="416.56" y="134.62"/>
-<instance part="U$41" gate="G$1" x="416.56" y="121.92"/>
 <instance part="J2" gate="G$1" x="269.24" y="132.08" smashed="yes" rot="R90">
 <attribute name="VALUE" x="271.78" y="130.81" size="1.016" layer="96" rot="R90"/>
 </instance>
@@ -5137,7 +5132,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <instance part="U$1" gate="G$1" x="60.96" y="68.58" rot="MR0"/>
 <instance part="U$36" gate="G$1" x="60.96" y="35.56" rot="MR0"/>
 <instance part="U$37" gate="G$1" x="142.24" y="15.24" rot="R90"/>
-<instance part="U$6" gate="G$1" x="411.48" y="127"/>
 <instance part="D1" gate="G$1" x="15.24" y="233.68" smashed="yes" rot="MR90">
 <attribute name="NAME" x="17.014" y="233.66" size="1.016" layer="95" rot="MR90"/>
 </instance>
@@ -5297,6 +5291,8 @@ grid 3.5 mm, diameter 10 mm</description>
 <pinref part="D1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="233.68" x2="15.24" y2="231.14" width="0.1524" layer="91"/>
 <junction x="15.24" y="231.14"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<junction x="20.32" y="231.14"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
@@ -5550,11 +5546,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <junction x="373.38" y="165.1"/>
 </segment>
 <segment>
-<pinref part="U$41" gate="G$1" pin="GND"/>
-<wire x1="414.02" y1="124.46" x2="416.56" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <pinref part="H14" gate="G$1" pin="1"/>
 <pinref part="U$50" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
@@ -5800,11 +5791,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$39" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="3.3V"/>
-<wire x1="414.02" y1="132.08" x2="416.56" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -6437,11 +6423,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <wire x1="187.96" y1="17.78" x2="195.58" y2="17.78" width="0.1524" layer="91"/>
 <label x="195.58" y="17.78" size="1.27" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<wire x1="414.02" y1="129.54" x2="421.64" y2="129.54" width="0.1524" layer="91"/>
-<label x="421.64" y="129.54" size="1.27" layer="95" rot="MR0"/>
-<pinref part="U$6" gate="G$1" pin="2"/>
-</segment>
 </net>
 <net name="I2C.SCL" class="0">
 <segment>
@@ -6468,11 +6449,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="15.24" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
 <label x="195.58" y="15.24" size="1.27" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<wire x1="421.64" y1="127" x2="414.02" y2="127" width="0.1524" layer="91"/>
-<label x="421.64" y="127" size="1.27" layer="95" rot="MR0"/>
-<pinref part="U$6" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="XBEE.RSSI" class="0">
@@ -7138,7 +7114,17 @@ grid 3.5 mm, diameter 10 mm</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SVRO.EN" class="0">
+<net name="SRVO.EN" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="P2"/>
+<wire x1="238.76" y1="58.42" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
+<label x="248.92" y="58.42" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="U10" gate="G$1" pin="3A"/>
+<wire x1="297.18" y1="152.4" x2="287.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="287.02" y="152.4" size="1.27" layer="95"/>
+</segment>
 <segment>
 <pinref part="Q2" gate=".A" pin="G"/>
 <wire x1="27.94" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
@@ -7150,18 +7136,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <wire x1="25.4" y1="154.94" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <junction x="33.02" y="154.94"/>
-</segment>
-</net>
-<net name="SRVO.EN" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="P2"/>
-<wire x1="238.76" y1="58.42" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
-<label x="248.92" y="58.42" size="1.27" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="3A"/>
-<wire x1="297.18" y1="152.4" x2="287.02" y2="152.4" width="0.1524" layer="91"/>
-<label x="287.02" y="152.4" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
