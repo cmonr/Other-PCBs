@@ -4926,14 +4926,14 @@ grid 3.5 mm, diameter 10 mm</description>
 <part name="U$9" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U14" library="packages(ti)" deviceset="TPS54X0" device="" value="TPS5450"/>
 <part name="C40" library="microbuilder" deviceset="CAP_ELECTROLYTIC" device="PANASONIC_D" value="330uF"/>
-<part name="L3" library="coilcraft" deviceset="INDUCTOR" device=".XAL6060"/>
+<part name="L3" library="coilcraft" deviceset="INDUCTOR" device=".XAL6060" value="10uH"/>
 <part name="D6" library="comchip" deviceset="CDBC5XXX-G" device=""/>
 <part name="C41" library="standardparts" deviceset="CAPACITOR" device=".0603" value="10nF"/>
 <part name="U$44" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="C42" library="standardparts" deviceset="CAPACITOR" device=".1206" value="10uF"/>
 <part name="U$55" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="R17" library="standardparts" deviceset="RESISTOR" device=".0603" value="10k"/>
-<part name="R18" library="standardparts" deviceset="RESISTOR" device=".0603" value="2.87k"/>
+<part name="R18" library="standardparts" deviceset="RESISTOR" device=".0603" value="3.24k"/>
 <part name="U$59" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$61" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$60" library="microbuilder" deviceset="GND" device=""/>
@@ -5161,9 +5161,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <instance part="U$9" gate="G$1" x="38.1" y="165.1"/>
 <instance part="U14" gate="G$1" x="210.82" y="231.14"/>
 <instance part="C40" gate="G$1" x="241.3" y="228.6"/>
-<instance part="L3" gate="G$1" x="233.68" y="233.68" smashed="yes">
-<attribute name="NAME" x="233.045" y="234.95" size="1.016" layer="95" rot="R90"/>
-</instance>
+<instance part="L3" gate="G$1" x="233.68" y="233.68"/>
 <instance part="D6" gate="G$1" x="228.6" y="231.14" smashed="yes" rot="MR90">
 <attribute name="NAME" x="230.374" y="231.12" size="1.016" layer="95" rot="MR90"/>
 </instance>
