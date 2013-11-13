@@ -2047,7 +2047,7 @@ Source: http://www.silabs.com&lt;p&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="microbuilder" deviceset="FRAME_A4" device=""/>
-<part name="U1" library="silabs" deviceset="C8051F381/3/5/7" device=".QFN" value="C8051F387"/>
+<part name="U1" library="silabs" deviceset="C8051F381/3/5/7" device=".QFN" value="C8051F381/3/57"/>
 <part name="U$3" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
@@ -2099,9 +2099,9 @@ Source: http://www.silabs.com&lt;p&gt;
 <instance part="D2" gate="G$1" x="63.5" y="139.7" rot="R270"/>
 <instance part="R3" gate="G$1" x="48.26" y="144.78" rot="MR90"/>
 <instance part="R4" gate="G$1" x="63.5" y="144.78" rot="MR90"/>
-<instance part="U$8" gate="G$1" x="213.36" y="96.52" rot="MR90"/>
-<instance part="U$9" gate="G$1" x="177.8" y="109.22"/>
-<instance part="U$12" gate="G$1" x="195.58" y="93.98"/>
+<instance part="U$8" gate="G$1" x="180.34" y="96.52" rot="MR90"/>
+<instance part="U$9" gate="G$1" x="144.78" y="109.22"/>
+<instance part="U$12" gate="G$1" x="162.56" y="93.98"/>
 <instance part="U$13" gate="G$1" x="60.96" y="83.82"/>
 <instance part="C1" gate="G$1" x="139.7" y="134.62" rot="MR270"/>
 <instance part="C2" gate="G$1" x="142.24" y="134.62" rot="R270"/>
@@ -2113,10 +2113,10 @@ Source: http://www.silabs.com&lt;p&gt;
 <instance part="U$17" gate="G$1" x="139.7" y="139.7"/>
 <instance part="U2" gate="G$1" x="43.18" y="104.14"/>
 <instance part="U$2" gate="G$1" x="48.26" y="96.52"/>
-<instance part="H2" gate="G$1" x="190.5" y="101.6"/>
-<instance part="H1" gate="G$1" x="172.72" y="101.6"/>
-<instance part="H3" gate="G$1" x="208.28" y="101.6"/>
-<instance part="H4" gate="G$1" x="226.06" y="96.52"/>
+<instance part="H2" gate="G$1" x="157.48" y="101.6"/>
+<instance part="H1" gate="G$1" x="139.7" y="101.6"/>
+<instance part="H3" gate="G$1" x="175.26" y="101.6"/>
+<instance part="H4" gate="G$1" x="193.04" y="96.52"/>
 <instance part="U$10" gate="G$1" x="48.26" y="114.3"/>
 <instance part="U$18" gate="G$1" x="71.12" y="101.6" rot="R90"/>
 <instance part="J1" gate="G$1" x="76.2" y="106.68" rot="R90"/>
@@ -2167,7 +2167,7 @@ Source: http://www.silabs.com&lt;p&gt;
 <segment>
 <pinref part="H2" gate="G$1" pin="6"/>
 <pinref part="U$12" gate="G$1" pin="GND"/>
-<wire x1="193.04" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="2"/>
@@ -2185,8 +2185,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="93.98" y="91.44" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="96.52" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
-<label x="233.68" y="96.52" size="1.27" layer="95" rot="MR0"/>
+<wire x1="195.58" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="200.66" y="96.52" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -2203,8 +2203,8 @@ Source: http://www.silabs.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="H3" gate="G$1" pin="4"/>
-<wire x1="215.9" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
-<label x="215.9" y="99.06" size="1.27" layer="95" rot="MR0"/>
+<wire x1="182.88" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="182.88" y="99.06" size="1.27" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -2249,7 +2249,7 @@ Source: http://www.silabs.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="3.3V"/>
-<wire x1="177.8" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="H1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -2288,8 +2288,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="76.2" y="121.92" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="104.14" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
-<label x="180.34" y="104.14" size="1.27" layer="95" rot="MR0"/>
+<wire x1="142.24" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<label x="147.32" y="104.14" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -2300,8 +2300,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="76.2" y="124.46" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
-<label x="180.34" y="101.6" size="1.27" layer="95" rot="MR0"/>
+<wire x1="147.32" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<label x="147.32" y="101.6" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H1" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -2312,8 +2312,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="91.44" y="139.7" size="1.27" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
-<label x="180.34" y="99.06" size="1.27" layer="95" rot="MR0"/>
+<wire x1="142.24" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
+<label x="147.32" y="99.06" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H1" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -2324,8 +2324,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="93.98" y="139.7" size="1.27" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="180.34" y="96.52" size="1.27" layer="95" rot="MR0"/>
+<wire x1="147.32" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="147.32" y="96.52" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H1" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -2336,8 +2336,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="96.52" y="139.7" size="1.27" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<label x="198.12" y="109.22" size="1.27" layer="95" rot="MR0"/>
+<wire x1="165.1" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<label x="165.1" y="109.22" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -2348,8 +2348,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="99.06" y="139.7" size="1.27" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<wire x1="193.04" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
-<label x="198.12" y="106.68" size="1.27" layer="95" rot="MR0"/>
+<wire x1="160.02" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
+<label x="165.1" y="106.68" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -2360,8 +2360,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="101.6" y="139.7" size="1.27" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="198.12" y="104.14" size="1.27" layer="95" rot="MR0"/>
+<wire x1="165.1" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<label x="165.1" y="104.14" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H2" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -2372,8 +2372,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <label x="104.14" y="139.7" size="1.27" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<wire x1="193.04" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<label x="198.12" y="101.6" size="1.27" layer="95" rot="MR0"/>
+<wire x1="160.02" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<label x="165.1" y="101.6" size="1.27" layer="95" rot="MR0"/>
 <pinref part="H2" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -2409,8 +2409,8 @@ Source: http://www.silabs.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="H3" gate="G$1" pin="3"/>
-<wire x1="210.82" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
-<label x="215.9" y="101.6" size="1.27" layer="95" rot="MR0"/>
+<wire x1="177.8" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="182.88" y="101.6" size="1.27" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="P1.3" class="0">
@@ -2421,8 +2421,8 @@ Source: http://www.silabs.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="H3" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="104.14" size="1.27" layer="95" rot="MR0"/>
+<wire x1="182.88" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
+<label x="182.88" y="104.14" size="1.27" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="P1.2" class="0">
@@ -2433,8 +2433,8 @@ Source: http://www.silabs.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="H3" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
-<label x="215.9" y="106.68" size="1.27" layer="95" rot="MR0"/>
+<wire x1="177.8" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+<label x="182.88" y="106.68" size="1.27" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
@@ -2471,8 +2471,8 @@ Source: http://www.silabs.com&lt;p&gt;
 <net name="P1.1" class="0">
 <segment>
 <pinref part="H2" gate="G$1" pin="5"/>
-<wire x1="193.04" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
-<label x="198.12" y="99.06" size="1.27" layer="95" rot="MR0"/>
+<wire x1="160.02" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="165.1" y="99.06" size="1.27" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.1"/>
