@@ -9180,7 +9180,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="U$46" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$65" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
-<part name="C2" library="standardparts" deviceset="CAPACITOR" device=".1206" value="2.2uF"/>
+<part name="C2" library="standardparts" deviceset="CAPACITOR" device=".0603" value="2.2uF"/>
 <part name="C4" library="standardparts" deviceset="CAPACITOR" device=".0805" value="22uF"/>
 <part name="H31" library="te-connectivity" deviceset="1X3" device=".4DB"/>
 <part name="U$11" library="microbuilder" deviceset="VBAT" device=""/>
